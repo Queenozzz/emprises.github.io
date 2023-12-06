@@ -143,8 +143,8 @@ i{
 header.head-con .logo{
     flex: 1;
     color: #ebebebd3;
-    margin-left: 30px;
-    font-size: 1.5rem;
+    margin-left: 10px;
+    font-size: 1rem;
     text-transform: capitalize;
     font-family: 'Love Light', 'cursive';
 }
@@ -183,7 +183,7 @@ header.head-con .search-box button{
 }
 
 .fas{
-    width: 30px;
+    width: 25px;
 }
 
 header.head-con ul{
