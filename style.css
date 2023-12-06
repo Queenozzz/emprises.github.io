@@ -81,15 +81,19 @@ body{
 .text a{
     display: inline-block;
     font-size: 1rem;
-    background: #fff;
+    background: linear-gradient(90deg, rgba(199, 225, 247, 0.801) 35%, rgb(44, 81, 133) 100%);
     padding: 10px 30px;
     text-decoration: none;
+    border-radius: 30px;
     color: #111;
+    box-shadow: 2px 2px 20px rgba(180, 221, 255, 0.699);
     margin-top: 10px;
     text-transform: uppercase;
     letter-spacing: 2px;
 
 }
+
+
 .text a:hover{
    letter-spacing: 6px;
    margin-bottom: 2px;
