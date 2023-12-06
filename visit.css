@@ -556,6 +556,11 @@ hr {
 }
 
 @media(max-width: 768px){
+    header .logo {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+    
     .image{
         height: 27.5rem;
     }
