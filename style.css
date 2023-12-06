@@ -675,6 +675,18 @@ hr{
        left: 0;
     }
 
+     .menu-bar #close-icons{
+      display: none;
+    }
+
+   #check1:checked~.menu-bar #menu-icons {
+      display: none;
+    }
+
+   #check1:checked~.menu-bar #close-icons {
+      display: block;
+    }
+    
     #check1:checked ~ ul{
         left: 0;
     }
