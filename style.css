@@ -391,7 +391,7 @@ header.head-con ul li:hover > ul{
 }
 
 .container.box {
-    margin: 0 auto;
+    margin: 10rem auto;
     max-width: 90rem;
     padding: 0 1.5rem;
 }
@@ -477,6 +477,7 @@ header.head-con ul li:hover > ul{
 
 .filterable-cards {
     display: flex;
+    padding: 20px;
     margin-top: 30px;
     margin-bottom: 50px;
     gap: 20px;
@@ -488,22 +489,21 @@ header.head-con ul li:hover > ul{
     flex-basis: 300px;
     padding: 3px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(47, 160, 252, 0.699);
+    box-shadow: 2px 2px 20px rgba(47, 160, 252, 0.699);
 }
 
 
 .card img {
     width: 100%;
-    height: 210px;
+    height: 200px;
     object-fit: cover;
     border-radius: 8px 8px 0 0;
     overflow: hidden;
-    display: flow-root;
     transition: 0.5s ease-in-out;
 }
 
 .card:hover img {
-    transform: scale(0.7);
+    transform: skew(25deg, 25deg);
 }
 
 
@@ -717,10 +717,6 @@ hr{
 
 
 @media(max-width:1200px){
-  
-   .card {
-        flex-basis: 35%;
-    }
 
     .footer-col {
         flex-basis: 35%;
@@ -830,9 +826,9 @@ hr{
 
    .container.box{
     width: 100% ;
-    height: 100%;
+    height: 80%;
     padding: 0 ;
-    margin: 0;
+    margin: 10rem 0;
     
    }
 
@@ -857,8 +853,6 @@ hr{
 
      .footer-col {
          flex-basis: 100%;
-
-
      }
 
     .footer-col:nth-child(2),
@@ -867,9 +861,4 @@ hr{
     }
 }
 
- 
-@media(max-width: 600px){
-    .card{
-        flex-basis: 300px;
-    }
-}
+
