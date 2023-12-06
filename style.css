@@ -16,7 +16,7 @@ body{
 
 /* landingpage */
 
-.showcase {
+.front {
     position: absolute;
     right: 0;
     width: 100%;
@@ -32,30 +32,8 @@ body{
 }
 
 
-.showcase.active{
-    right: 400px;
-}
 
-.showcase .logo{
-    flex: 1;
-    font-size: 1.7rem;
-    color: #ffffffd3;
-    text-transform: capitalize;
-    font-family: 'Love Light', 'cursive';
-    cursor: pointer;
-}
 
-.showcase header{
-    position: absolute;
-    top: 15px;
-    left: 0;
-    width: 100%;
-    padding: 40px 100px;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 
 .text{
@@ -64,25 +42,7 @@ body{
 }
 
 
-
-.toggle .fa-passport{
-    position: relative;
-    width: 60px;
-    cursor: pointer;
-
-}
-
-.toggle .fa-passport {
-    left: 40px;
-    top: 0;
-    font-size: 30px;
-    color: white;
-    padding: 6x 12px;
-    transition: all .5s;
-}
-
-
-.showcase video{
+.front video{
     position: absolute;
     top: 0;
     left: 0;
@@ -100,76 +60,6 @@ body{
     height: 100%;
     background-color: var(--overlay-color); 
     mix-blend-mode: overlay;
-}
-
-.menu{
-    position: absolute;
-    background: linear-gradient(90deg, rgb(195, 200, 207) 50%, rgb(12, 46, 73) 100%);
-    top: 0;
-    right: 0;
-    width: 400px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.menu ul{
-    margin-right: 250px;
-    margin-bottom: 200px;
-    position: relative; 
-}
-
-.menu ul li a i, .menu ul li a{
-    margin: 2rem 0;
-    color: #000;
-    font-size: 1.5rem;
-    font-weight: 700;
-}
-
-.menu li a i:hover , .menu li a:hover{
-    color: #b5e4ffee; 
-}
-
-
-.menu ul li ul, .menu ul li ul.list{
-    position: absolute;
-    height: calc(100% - 60px);
-    width: 60%;
-    display: none;
-    left: 150px;
-    top: 70px;
-}
- 
-.menu ul li ul.list{
-    left: 190px;
-    top: 0;
-}
-
-
-.menu ul li ul li{
-    width: 100%;   
-} 
-
-.menu ul li ul li a{
-    text-transform: capitalize;
-    top: 0;
-    display: inline-block;
-}
-
-.menu ul li ul.social li a i {
-    font-size: 2.2rem;
-}
-
-.menu ul li ul li ul {
-    left: 120px;
-    top: 100px;  
-   
-}
-
-.menu ul li:focus-within > ul, 
-.menu ul li a:checked > ul {
-    display: initial;
 }
 
 .text h2{
@@ -726,11 +616,6 @@ hr{
         flex-basis: 50%;
     }
 
-
-    .showcase, .showcase header{
-        padding: 0 50px;
-    }
-
     .text h2{
         font-size: 3em;
     }
@@ -788,18 +673,6 @@ hr{
     header.head-con ul li ul li{
        width: 100%;
        left: 0;
-    }
-
-    .menu-bar #close-icons{
-      display: none;
-    }
-
-   #check1:checked~.menu-bar #menu-icons {
-      display: none;
-    }
-
-   #check1:checked~.menu-bar #close-icons {
-      display: block;
     }
 
     #check1:checked ~ ul{
