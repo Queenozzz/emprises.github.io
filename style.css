@@ -258,6 +258,8 @@ header.head-con ul li ul li{
 header.head-con ul li:focus-within > ul, 
 header.head-con ul li:hover > ul{
     display: initial;
+    background: linear-gradient(90deg, rgba(0, 75, 136, 0.801) 35%, rgb(13, 24, 39) 100%);
+    box-shadow: 1px 1px 1px 1px rgba(2, 2, 92, 0.192);
 }
 
 
@@ -665,11 +667,8 @@ hr{
 
     }
 
-    header.head-con ul.menu li ul li{
-        background: rgba(51, 69, 121, 0.295);
-    }
-
     header.head-con ul li ul li{
+        background: rgba(0, 0, 0, 0.5);
        width: 100%;
        left: 0;
     }
